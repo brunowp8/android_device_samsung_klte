@@ -15,3 +15,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_klte.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_klte-user \
+    lineage_klte-userdebug \
+    lineage_klte-eng
